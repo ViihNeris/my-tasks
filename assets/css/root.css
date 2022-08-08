@@ -10,3 +10,20 @@
     --lilacPurple: #9E8BFC;
     --darkLilac: #5D458F;
 }
+
+html, body{
+    margin: 0
+}
+
+button{
+    border: none;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
