@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+    .slide-description {
+        padding: 10px;
+    }
+
+    .slide-description h3 {
+        font-size: 4vw;
+    }
+
+    .slide-description p {
+        display: none;
+    }
+
+    .slide-control-button {
+        font-size: 14px;
+    }
+
+    .slide-controls {
+        margin: 15px auto 0;
+    }
+
+    .slide-previous {
+        left: 10px;
+    }
+
+    .slide-next {
+        right: 10px;
+    }
+
+    .slide-nav-button {
+        font-size: 28px;
+        margin-top: -20px;
+    }
+
+    .proceed {
+        font-size: 2.7vw;
+        padding: 10px 5px;
+    }
+    .gif-space{
+        height: 8vw;
+    }
+    
+    .gif{
+        width: 8vw;
+    }
+}

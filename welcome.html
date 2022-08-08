@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Viih Neris">
+    <meta name="keywords" content="list, apresentação, carrossel, organização">
+    <meta name="description" content="Apresentação do MyTasks.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="assets/imgs/iconTask.png">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/root.css">
+    <link rel="stylesheet" href="assets/css/welcome.css">
+    <link rel="stylesheet" href="assets/css/responsive/welcomeResp.css">
+
+    <title>Bem-vindo(a) ao MyTasks!</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="slide-wrapper" data-slide="wrapper">
+            <button class="slide-nav-button slide-previous fas fa-chevron-left"
+                data-slide="nav-previous-button"></button>
+            <button class="slide-nav-button slide-next fas fa-chevron-right" data-slide="nav-next-button"></button>
+            <div class="slide-list" data-slide="list">
+                <div class="slide-item" data-slide="item" data-index="0">
+                    <div class="slide-content">
+                        <img class="slide-image one" src="assets/imgs/welcome02.png" />
+                        <div class="slide-description space-null">
+                            <h3>Bem-vindo(a) ao MyTasks!</h3>
+                            <p>Aqui você poderá listar as tarefas mais importantes do seu dia!</p>
+                            <div class="gif-space">
+                                <img class="gif" src="assets/imgs/giphy.gif">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="1">
+                    <div class="slide-content">
+                        <img class="slide-image" src="assets/imgs/welcome.png" />
+                        <div class="slide-description space-null">
+                            <h3>Cansado(a) de esquecer suas tarefas?</h3>
+                            <p>Nada tema! A MyTasks estará com seus deveres guardados, sempre disponíveis quando você
+                                quiser vê-los!</p>
+                            <div class="gif-space">
+                                <img class="gif" src="assets/imgs/gif2.gif">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="2">
+                    <div class="slide-content">
+                        <img class="slide-image" src="assets/imgs/welcome03.png" />
+                        <div class="slide-description">
+                            <h3>Vamos lá?</h3>
+                            <p>Prossiga para ter acesso ao MyTasks e despreocupe-se!</p>
+                            <div class="button-proceed">
+                                <a href="index.html">
+                                    <button class="proceed fas fa-arrow-alt-circle-right">
+                                        <span class="proceed-p">Prossiga</span>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-controls" data-slide="controls-wrapper">
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/slides.js"></script>
+    <script>
+        initSlider({
+            startAtIndex: 0,
+            autoPlay: false,
+            timeInterval: 3000
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Viih Neris">
+    <meta name="keywords" content="to do list, list, tasks">
+    <meta name="description" content="Lista de Tarefas afim de oferecer mais organização em seu cotidiano.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="../imgs/iconTask.png">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/root.css">
+    <link rel="stylesheet" href="assets/css/styleIndex.css">
+    <link rel="stylesheet" href="assets/css/responsive/indexResp.css">
+    <script src="assets/js/tasks.js" defer></script>
+    <script src="assets/js/menu-and-buttons.js" defer></script>
+    <title>MyTasks</title>
+</head>
+
+<body>
+    <div class="cont-options">
+        <div class="options">
+            <button class="button-option del-op">Excluir todas as tarefas 🚯</button>
+            <a href="./welcome.html"> <button class="button-option back-op">Voltar à página Welcome ↩</button></a>
+            <a href="https://github.com/ViihNeris/"> <button class="button-option about-dev-op">GitHub da Desenvolvedora
+                    🐱‍🚀</button></a>
+        </div>
+    </div>
+    <header>
+        <div class="nav-container">
+            <div class="cont-logo">
+                <img id="logo-mytasks" src="assets/imgs/logo-mytasks2.png" alt="logo MyTasks">
+            </div>
+            <div class="cont-hamburguer-menu">
+                <input type="checkbox" id="checkbox-menu" class="menu">
+                <label for="checkbox-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+        </div>
+    </header>
+    <!-- More info -->
+    <div class="all-notification">
+        <div class="cont-popup">
+            <div class="popup">
+                <a href="./welcome.html"> <button class="button-popup back-op">Voltar à página Welcome
+                        ↩</button></a>
+                <br>
+                <a href="https://github.com/ViihNeris/"> <button class="button-popup about-dev-op">GitHub da
+                        Desenvolvedora
+                        🐱‍🚀</button></a><br>
+                <button class="close-popup">X Fechar</button>
+            </div>
+        </div>
+    </div>
+    <div class="popup-del">
+        <div class="cont-popup">
+            <div class="popup">
+                <p>Esta ação irá excluir <strong>TODAS</strong> as suas tarefas.</p>
+                <br><br>
+                Deseja continuar?<br><br>
+                <button id="confirm">Sim</button>
+                <button id="cancel">Pensando melhor, não</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="no-tasks">
+        <div class="cont-popup">
+            <div class="popup">
+                <p>Não há tarefas a serem excluídas</p>
+                <button class="ok">Ok</button>
+            </div>
+        </div>
+    </div>
+    
+    <section class="container">
+        <div class="cont-input">
+            <input type="text" class="task-input" placeholder="O que vou fazer hoje?" maxlength="360">
+            <button class="btns-input btn-add-task fas fa-plus-circle" title="Adicionar tarefa"></button>
+            <button class="btns-input btn-more-info fa-solid fa-gear" title="Mais informações"></button>
+            <button class="btns-input btn-del-all-tasks fas fa-times-circle" title="Excluir todas tarefas"></button>
+        </div>
+
+        <section class="cont-tasks">
+            <div class="null">
+                <section class="section-null">
+                    <p>Você não tem tarefasassets. 😿</p>
+                    <div class="null-word-image">
+                        <p>Insira uma agora!<br> Estará tudo aqui quando voltar 💕</p>
+                        <img class="null-image" src="assets/imgs/writing.gif">
+                    </div>
+                </section>
+            </div>
+            <ul class="tasks">
+            </ul>
+        </section>
+    </section>
+    <footer>
+        <div>
+            <img class="copy" src="assets/imgs/programmer_6454313.png">
+            <p>Created by Viih Neris, Front-End Developer 💜</p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+html,
+body {
+    height: 100%;
+    background: linear-gradient(360deg, #FFF, var(--darkPurple));
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.slide-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+}
+
+.slide-list {
+    display: flex;
+}
+
+.slide-item {
+    cursor: grab;
+    flex-shrink: 0;
+    width: 90vw;
+}
+
+.slide-content {
+    position: relative;
+}
+
+.slide-image {
+    width: 100%;
+    height: 49vw;
+}
+
+.slide-description {
+    background: linear-gradient(to top, #FFF, transparent);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 35px;
+}
+
+.slide-description h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vw;
+    position: relative;
+}
+
+.slide-description p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5vw;
+}
+
+.slide-nav-button {
+    cursor: pointer;
+    background: transparent;
+    color: var(--darkPurple);
+    font-size: 80px;
+    position: absolute;
+    z-index: 1;
+}
+
+.slide-previous {
+    left: 20px;
+}
+
+.slide-next {
+    right: 20px;
+}
+
+.slide-controls {
+    margin: 0 auto 3px;
+}
+
+.slide-control-button {
+    cursor: pointer;
+    background: transparent;
+    color: var(--bluePurple);
+    font-size: 20px;
+    margin: 0 3px;
+}
+
+.slide-control-button.active {
+    color: var(--lilacPurple);
+}
+
+.button-proceed {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+.proceed {
+    cursor: pointer;
+    background: transparent;
+    width: 100%;
+    font-size: 25px;
+    background-color: var(--darkLilac);
+    padding: 1vw;
+    color: #FFF;
+    font-size: 1.2vw;
+    border-radius: 5px;
+}
+
+.proceed-p {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.proceed:hover{
+    background-color: var(--lilac);
+}
+.proceed:active{
+    font-size: 1.1vw;
+    padding: 1.05vw 1.25vw;
+}
+
+.gif-space{
+    width: 100%;
+    height: 5vw;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1.3vw;
+}
+
+.gif{
+    width: 5vw;
+    height: 100%;
+}
+
+/* .space-null{
+    padding-bottom: 110px;
+} */
