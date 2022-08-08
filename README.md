@@ -27,10 +27,10 @@ https://user-images.githubusercontent.com/93789218/183528480-fb1ac817-3937-46a6-
 https://user-images.githubusercontent.com/93789218/183528503-f6f48c22-9d3a-406e-aef7-fe7127a266f3.mp4
 
 ## Veja você mesmo!
-Clique no link abaixo para você mesmo testar o MyTasks!👇🏻💜
+Fique a vontade! Clique no link ao lado para você mesmo testar o MyTasks! 👉🏻💜
 https://viihneris.github.io/My-Tasks/welcome.html
 
-### Conhecimentos aplicados:
+## Conhecimentos aplicados:
 
 - HTML Semântico:
   - Sections;
