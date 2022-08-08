@@ -30,6 +30,8 @@ https://user-images.githubusercontent.com/93789218/183528503-f6f48c22-9d3a-406e-
 Fique a vontade! Clique no link ao lado para você mesmo testar o MyTasks! 👉🏻💜
 https://viihneris.github.io/My-Tasks/welcome.html
 
+ATENÇÃO: Para melhor experiência, recomendo que utilize o navegador Chrome.
+
 ## Conhecimentos aplicados:
 
 - HTML Semântico:
