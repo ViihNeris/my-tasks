@@ -87,6 +87,11 @@ label :nth-child(3) {
 .close-popup {
     background: transparent;
     color: #FFF;
+    transition: .1s;
+}
+
+.close-popup:hover {
+    color: #F00;
 }
 
 .cont-input {
@@ -128,19 +133,57 @@ label :nth-child(3) {
 
 
 #confirm,
-#cancel, .ok {
-    font-size: 16px;
-    background-color: rgb(233, 233, 233);
+#cancel,
+.ok,
+.button-popup {
+    font-size: 15px;
+    background-color: rgb(207, 207, 207);
     border: 2px solid var(--lilac);
     min-width: 80px;
     padding: 10px;
-    min-height: 40px;
     margin-top: 20px;
     border-radius: 5px;
 }
 
-#confirm:hover, #cancel:hover {
+.ok{
+    height: 40px;
+}
+
+#cancel {
+    min-width: 200px;
+}
+
+.button-popup {
+    margin: 0 0 20px 0
+}
+
+#confirm:hover,
+#cancel:hover,
+.ok:hover,
+.button-popup:hover {
     background-color: #FFF
+}
+
+#confirm:active,
+#cancel:active,
+.ok:active {
+    color: var(--lilac);
+    font-size: 14.5px;
+    min-height: 40.5px;
+}
+
+.back-op:active{
+    color: var(--lilac);
+    font-size: 14px;
+    min-width: 206px;
+    min-height: 43px;
+}
+
+.about-dev-op:active{
+    color: var(--lilac);
+    font-size: 14px;
+    min-width: 228px;
+    min-height: 44px;
 }
 
 .cont-tasks::-webkit-scrollbar {
@@ -261,12 +304,14 @@ li:hover {
 }
 
 .button-option:active {
+    font-size: 14px;
     color: var(--lilac);
     border-bottom-color: var(--lilac);
 }
 
 .all-notification,
-.popup-del, .no-tasks {
+.popup-del,
+.no-tasks {
     position: absolute;
     display: none;
     justify-content: center;
@@ -276,7 +321,8 @@ li:hover {
     backdrop-filter: brightness(1%);
 }
 
-.popup-del, .no-tasks {
+.popup-del,
+.no-tasks {
     color: #FFF;
 }
 
@@ -295,14 +341,6 @@ li:hover {
 
 .popup {
     width: 100%;
-}
-
-.button-popup {
-    padding: 15px;
-    border-radius: 8px;
-    font-size: 18px;
-    margin-bottom: 20px;
-    color: var(--darkPurple);
 }
 
 .copy {

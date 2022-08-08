@@ -1,20 +1,25 @@
 @media screen and (max-width: 768px) {
-    label{
+    body {
+        overflow-y: auto;
+    }
+
+    label {
         display: block;
     }
 
-    .cont-tasks{
+    .cont-tasks {
         margin: 0;
         height: 91%;
         border-radius: 0;
         box-shadow: none;
     }
 
-    .btn-del-all-tasks, .btn-more-info{
+    .btn-del-all-tasks,
+    .btn-more-info {
         display: none;
     }
 
-    .cont-popup{
+    .cont-popup {
         font-size: 14px;
     }
 
