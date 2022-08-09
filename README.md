@@ -2,13 +2,13 @@
 Um projeto To Do List desenvolvido em HTML, CSS e JS! 👩🏻‍💻
 
 ## Introdução: CARROSSEL 🎠
-Começamos com uma apresentação breve ao usuário, exposta por meio de um carrossel. A navegação pode ser realizada através dos botões laterais (setas), inferiores (bolinhas), via dragstart (arrastar do mouse/cursor) ou automação, isto é, se o usuário não estiver com seu cursor posicionado sobre um slide, o carrossel rotacionará de forma automática!. Acompanhe:
+Começamos com uma apresentação breve ao usuário, exposta por meio de um carrossel. A navegação pode ser realizada através dos botões laterais (setas), inferiores (bolinhas), via dragstart (arrastar do mouse/cursor) ou automação, isto é, se o usuário não estiver com seu cursor posicionado sobre um slide, o carrossel rotacionará de forma automática! Acompanhe:
 
 ![image](https://user-images.githubusercontent.com/93789218/183529129-da6cca2a-7085-4e65-8b8d-4f29fa43fa25.png)
 ![image](https://user-images.githubusercontent.com/93789218/183529166-c9196438-e604-4ce7-828e-bc2e937170b7.png)
 ![image](https://user-images.githubusercontent.com/93789218/183529198-4e4d3f23-5d4d-4110-8c18-72c420240284.png)
 
-No último slide, podemos observar um botão roxo com o texto "Prosseguir". Ele direciona o usuário a tela que contém as funcionalidades "To Do List" (abordadas nos tópicos a seguir).
+No último slide, podemos observar um botão roxo com o texto "Prossiga". Ele direciona o usuário a tela que contém as funcionalidades "To Do List" (abordadas nos tópicos a seguir).
 
 
 
