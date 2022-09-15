@@ -75,6 +75,7 @@ ATENÇÃO: Para melhor experiência, recomendo que utilize o navegador Chrome.
     - clearTimeout;
     - clearInterval;
     - setInterval;
+    - Ternary Operator;
     - Objetos/modelo chave x valor;
     - Método append/appendChild;
     - createElement;
